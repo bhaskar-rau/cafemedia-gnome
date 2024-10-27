@@ -9,8 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "light-beige": "#F9F5F1",
+        "typewriter-text": "#2D2D2D",
+        "dark-beige": "#8B7355",
+      },
+      fontFamily: {
+        typewriter: ["Courier Prime", "monospace"],
       },
     },
   },

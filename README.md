@@ -1,36 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cafemedia Gnome
 
-## Getting Started
+**Cafemedia Gnome** is the user interface for **Cafemedia Daemon**, designed to bring food lovers together through a shared passion for culinary experiences. This Next.js application provides a visually appealing and easy-to-navigate platform where users can explore dish photos, restaurant locations, and taste-based ratings. Built with a focus on simplicity and immersive design, Cafemedia Gnome offers an inviting space for food discovery without likes, comments, or traditional star ratings.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Cafemedia Gnome is crafted with:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js**: For a fast, scalable, and SEO-friendly experience.
+- **Tailwind CSS**: Providing custom styling with utility-first classes for flexibility in design.
+- **Typewriter Font**: To add a unique, nostalgic aesthetic across the platform.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Food Photo Feed**: Users can scroll through a feed of food photos, each tagged with location and restaurant names.
+- **Minimalist Rating System**: Showcases taste ratings focused on experience descriptions rather than stars.
+- **Responsive UI**: Fully responsive for desktop and mobile viewing, with seamless user interactions.
