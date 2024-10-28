@@ -13,3 +13,20 @@ body {
   background: rgb(var(--background-rgb));
   font-family: "Courier Prime", monospace;
 }
+
+@keyframes typing {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center; /* Center the text */
+  animation: typing 2.5s steps(30, end) forwards; /* Use steps for a smoother effect */
+}
